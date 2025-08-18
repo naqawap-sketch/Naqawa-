@@ -1,7 +1,11 @@
 @font-face {
   font-family: 'SaudiFont';
-  src: url('https://cdn.jsdelivr.net/gh/naqawap-sketch/naqawa/saudimfont.woff2') format('woff2'),
-       url('https://cdn.jsdelivr.net/gh/naqawap-sketch/naqawa/Saudi.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/naqawap-sketch/naqawa/Saudi.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
+}
+
+body, button, input, textarea, h1, h2, h3, h4, h5, h6, .salla-theme {
+  font-family: 'SaudiFont', sans-serif !important;
 }
